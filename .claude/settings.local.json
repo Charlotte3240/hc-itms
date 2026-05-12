@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(git *)",
+      "Bash(go mod *)",
+      "Bash(go build *)",
+      "Bash(GONOSUMCHECK=* GONOSUMDB=* GOPROXY=https://goproxy.io,direct go doc *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(GONOSUMCHECK=* GONOSUMDB=* GOPROXY=https://goproxy.io,direct go get gorm.io/driver/sqlite@latest)",
+      "Bash(go get *)",
+      "Bash(taskkill //F //PID 12092)",
+      "Bash(./hc-itms.exe)",
+      "Bash(curl -s http://localhost:8080/)",
+      "Bash(curl *)"
+    ]
+  }
+}
