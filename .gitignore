@@ -1,0 +1,38 @@
+# Go
+hc-itms
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# Database
+*.db
+
+# Storage
+storage/uploads/*
+storage/icons/*
+!storage/uploads/.gitkeep
+!storage/icons/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+web/node_modules/
+web/dist/
+web/.env.local
+
+# Config
+config.local.yaml

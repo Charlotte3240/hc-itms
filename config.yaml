@@ -1,0 +1,17 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+  base_url: "http://localhost:8080"
+  mode: "debug"
+
+database:
+  path: "./data.db"
+
+storage:
+  upload_dir: "./storage/uploads"
+  icon_dir: "./storage/icons"
+  max_file_size: 524288000
+
+jwt:
+  secret: "hc-itms-secret-change-in-production"
+  expire_hours: 72
